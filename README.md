@@ -3,7 +3,11 @@
 
 Welcome to my repository where I upload my daily tasks, assignments, and projects from my journey as a Software Engineering undergraduate at Superior University.
 
+<<<<<<< HEAD
 --
+=======
+---
+>>>>>>> 4214af69878340010afee8c8b7f1dad98787d744
 
 ## 📚 About
 
@@ -54,9 +58,16 @@ Feel free to open an issue for constructive feedback.
 
 - **Name:** Muhammad Ahmed Subhani
 - **Email:** [ahmadsubhani6741@gmail.com]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4214af69878340010afee8c8b7f1dad98787d744
 ---
 
 > “Success is the sum of small efforts, repeated day in and day out.” – Robert Collier
 ---
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4214af69878340010afee8c8b7f1dad98787d744
