@@ -1,4 +1,4 @@
-# uni-projects
+# uni-tasks
 # 🎓 Daily University Tasks & Projects
 
 Welcome to my repository where I upload my daily tasks, assignments, and projects from my journey as a Software Engineering undergraduate at Superior University.
