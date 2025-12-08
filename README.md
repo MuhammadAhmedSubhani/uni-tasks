@@ -58,7 +58,6 @@ Feel free to open an issue for constructive feedback.
 
 - **Name:** Muhammad Ahmed Subhani
 - **Email:** [ahmadsubhani6741@gmail.com]
-=======
 
 ---
 
