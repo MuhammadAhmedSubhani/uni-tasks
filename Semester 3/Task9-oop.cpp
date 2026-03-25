@@ -2,26 +2,22 @@
 #include <string>
 using namespace std;
 
-// Base class Person
 class Person {
 private:
     string name;
     int age;
 
 public:
-    // Default constructor
     Person() {
         name = "";
         age = 0;
     }
 
-    // Parameterized constructor
     Person(string n, int a) {
         name = n;
         age = a;
     }
 
-    // Setter functions
     void setName(string n) {
         name = n;
     }
@@ -30,7 +26,6 @@ public:
         age = a;
     }
 
-    // Getter functions
     string getName() const {
         return name;
     }
@@ -40,11 +35,10 @@ public:
     }
 };
 
-// CPU class
 class CPU {
 private:
     string brand;
-    double speed; // in GHz
+    double speed; 
 
 public:
     CPU() {
@@ -79,10 +73,9 @@ public:
     }
 };
 
-// RAM class
 class RAM {
 private:
-    int size; // in GB
+    int size; 
     string type;
 
 public:
@@ -118,7 +111,6 @@ public:
     }
 };
 
-// Computer class
 class Computer {
 private:
     CPU cpu;
@@ -152,12 +144,11 @@ public:
     }
 };
 
-// Derived class Employee
 class Employee : public Person {
 private:
     int employeeID;
     double salary;
-    Computer computer;   // Has-a relationship
+    Computer computer; 
 
 public:
     Employee() {
@@ -206,7 +197,6 @@ public:
     }
 };
 
-// Main function
 int main() {
     CPU cpu1("Intel Core i7", 3.6);
     RAM ram1(16, "DDR4");
