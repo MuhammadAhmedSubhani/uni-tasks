@@ -1,36 +1,35 @@
 #include <iostream>
 using namespace std;
 
-class Printer {
+class Display {
 public:
-    void print(int x) {
-        cout << "Integer: " << x << endl;
+    void show(int value) {
+        cout << "Int value: " << value << endl;
     }
 
-    void print(double y) {
-        cout << "Double: " << y << endl;
+    void show(double value) {
+        cout << "Double value: " << value << endl;
     }
 
-    virtual void show() {
-        cout << "This is Base Printer" << endl;
+    virtual void info() {
+        cout << "Inside base Display" << endl;
     }
 };
 
-class AdvancedPrinter : public Printer {
+class ProDisplay : public Display {
 public:
-    void show() {
-        cout << "This is Advanced Printer" << endl;
+    void info() override {
+        cout << "Inside derived ProDisplay" << endl;
     }
 };
 
 int main() {
-    AdvancedPrinter obj;
-    Printer* ptr = &obj;
+    ProDisplay dp;
+    Display* basePtr = &dp;
 
-    ptr->show();
-
-    obj.print(10);
-    obj.print(5.5);
+    basePtr->info();      // runtime polymorphism
+    dp.show(25);          // overloaded function (int)
+    dp.show(9.75);        // overloaded function (double)
 
     return 0;
 }
